@@ -33,7 +33,7 @@ Set-ExecutionPolicy Unrestricted
 * paste this into powershell
 
 ```
-https://github.com/hello-jason/windows-setup/blob/master/setup.ps1
+iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/hello-jason/windows-setup/master/setup.ps1'))
 ```
 
 ## To do with PowerShell
