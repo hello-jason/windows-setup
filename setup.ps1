@@ -2,6 +2,7 @@
 iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
 
 # Install applications
+choco install Atom
 choco install Clover
 choco install Firefox
 choco install google-chrome-x64

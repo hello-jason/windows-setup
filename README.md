@@ -2,6 +2,7 @@
 
 ## Included Software
 
+* Atom
 * Clover
 * Firefox
 * Chrome
