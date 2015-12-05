@@ -6,5 +6,5 @@
 * paste this command
 
 ```
-iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/hello-jason/windows-setup/master/setup.ps1'))
+iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/hello-jason/windows-setup/master/fresh-windows-setup.ps1'))
 ```
