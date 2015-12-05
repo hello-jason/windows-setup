@@ -30,16 +30,15 @@ choco install -y adobereader
 choco install -y ccleaner
 choco install -y evernote
 choco install -y f.lux
-choco install -y firefox
-choco install -y glasswire
+choco install -y firefox --force
 choco install -y google-chrome-x64
 choco install -y lightshot
 choco install -y malwarebytes
 choco install -y putty
 choco install -y qbittorrent
 choco install -y spotify
+choco install -y toastify
 choco install -y vlc
-choco install -y wudt
 
 # Development
 choco install -y atom
@@ -59,13 +58,19 @@ choco install -y winscp
 ###########################################################################
 # Cleanup
 ###########################################################################
-# Remove desktop icons
+# Remove desktop icons for local user
 Remove-Item "$env:USERPROFILE\Desktop\Spotify.lnk"
 Remove-Item "$env:USERPROFILE\Desktop\HeidiSQL.lnk"
 Remove-Item "$env:USERPROFILE\Desktop\Toastify.lnk"
-Remove-Item "C:\Users\Public\Desktop\Mozilla Firefox.lnk"
+# Remove desktop icons for Public user
+Remove-Item "C:\Users\Public\Desktop\CCleaner.lnk"
+Remove-Item "C:\Users\Public\Desktop\Evernote.lnk"
 Remove-Item "C:\Users\Public\Desktop\Google Chrome.lnk"
-Remove-Item "C:\Users\Public\Desktop\Oracle VM VitualBox.lnk"
+Remove-Item "C:\Users\Public\Desktop\Mozilla Firefox.lnk"
+Remove-Item "C:\Users\Public\Desktop\Malwarebytes Anti-Malware.lnk"
+Remove-Item "C:\Users\Public\Desktop\Oracle VM VirtualBox.lnk"
+Remove-Item "C:\Users\Public\Desktop\VLC media player.lnk"
+Remove-Item "C:\Users\Public\Desktop\WinSCP.lnk"
 
 ###########################################################################
 # TODO
