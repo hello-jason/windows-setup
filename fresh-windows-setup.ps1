@@ -59,10 +59,12 @@ choco install -y winscp
 # Cleanup
 ###########################################################################
 # Remove desktop icons for local user
-Remove-Item "$env:USERPROFILE\Desktop\Spotify.lnk"
+Remove-Item "$env:USERPROFILE\Desktop\Atom.lnk"
 Remove-Item "$env:USERPROFILE\Desktop\HeidiSQL.lnk"
+Remove-Item "$env:USERPROFILE\Desktop\Spotify.lnk"
 Remove-Item "$env:USERPROFILE\Desktop\Toastify.lnk"
 # Remove desktop icons for Public user
+Remove-Item "C:\Users\Public\Desktop\Acrobat Reader DC.lnk"
 Remove-Item "C:\Users\Public\Desktop\CCleaner.lnk"
 Remove-Item "C:\Users\Public\Desktop\Evernote.lnk"
 Remove-Item "C:\Users\Public\Desktop\Google Chrome.lnk"
