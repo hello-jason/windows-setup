@@ -39,9 +39,9 @@ choco install -y qbittorrent
 choco install -y spotify
 choco install -y toastify
 choco install -y vlc
+choco install -y wox
 
 # Development
-choco install -y atom
 choco install -y cmder
 choco install -y git
 choco install -y heidisql
@@ -59,7 +59,6 @@ choco install -y winscp
 # Cleanup
 ###########################################################################
 # Remove desktop icons for local user
-Remove-Item "$env:USERPROFILE\Desktop\Atom.lnk"
 Remove-Item "$env:USERPROFILE\Desktop\HeidiSQL.lnk"
 Remove-Item "$env:USERPROFILE\Desktop\Spotify.lnk"
 Remove-Item "$env:USERPROFILE\Desktop\Toastify.lnk"
